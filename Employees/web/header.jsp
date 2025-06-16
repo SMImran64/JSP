@@ -24,7 +24,7 @@
                             <a class="nav-link" href="employeeaddform.jsp">Add Employee</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
+                            <a class="nav-link" href="">Pricing</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link disabled" aria-disabled="true">Disabled</a>

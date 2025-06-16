@@ -28,6 +28,8 @@ request.setAttribute("list",list);
                 <th>Name</th>
                 <th>Email</th>
                 <th>Contact Number</th>
+                <th>Subject</th>
+                <th>Gender</th>
                 <th>Action</th>               
 
             </tr>
@@ -42,11 +44,14 @@ request.setAttribute("list",list);
                     <td>${s.getName()}</td>
                     <td>${s.getEmail()}</td>
                     <td>${s.getContactNo()}</td>
+                    <td>${s.getSubject()}</td>
+                    <td>${s.getGender()}</td>
                     
 
                     <td>
-                        <button type="submit" class="btn btn-primary">Edit</button>
-                        <button type="submit" class="btn btn-warning">Delete</button>
+                        <a href="editstudentform.jsp?id=${s.id}" class="btn btn-primary">Edit</button>
+                        <a href="deletestudent.jsp?id=${s.id}" class="btn btn-warning"
+                           onclick="return confirm('Alert!! your are deleting this Student details');">Delete</a>
 
                     </td>
 

@@ -1,18 +1,22 @@
 
+
 <jsp:useBean class="model.Student" id="s" />
 <%@page import="daw.StudentDao" %>
 <jsp:setProperty name="s" property="*" />
 
-<% 
 
-int result = StudentDao.saveAllStudent(s);
-if(result > 0){
+<%
+
+int result = StudentDao.updateStudent(s);
+
+if(result >0){
     
-    response.sendRedirect("index.jsp");
+    response.sendRediect("index.jsp");
     
     }
     else{
-     response.sendRedirect("error.jsp");
+    
+    response.sendRediect("error.jsp");
     
     }
 

@@ -24,6 +24,7 @@
                 <select class="form-select" name="designation" aria-label="Default select example">
                     <option selected>Select One</option>
                     <option value="Manager">Manager</option>
+                    <option value="Programmer">Programmer</option>
                     <option value="Cashier">Cashier</option>
                     <option value="User">User</option>                    
                 </select>

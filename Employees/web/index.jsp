@@ -41,7 +41,7 @@
                     <td>${e.getDesignation()}</td>
                     <td>${e.getSalary()}</td>
                     <td>
-                        <button type="submit" class="btn btn-primary">Edit</button>
+                        <a href="editemployeeform.jsp?id=${e.id}" class="btn btn-primary">Edit</a>
                         
                         <a href="deleteemployee.jsp?id=${e.id}" class="btn btn-danger"
                            onclick="return confirm('Are you sure');">Delete</a>
