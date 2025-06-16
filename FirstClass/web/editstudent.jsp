@@ -11,12 +11,12 @@ int result = StudentDao.updateStudent(s);
 
 if(result >0){
     
-    response.sendRediect("index.jsp");
+    response.sendRedirect("index.jsp");
     
     }
     else{
     
-    response.sendRediect("error.jsp");
+    response.sendRedirect("error.jsp");
     
     }
 

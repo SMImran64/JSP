@@ -3,7 +3,7 @@
 
 <div class="container my-3">
 
-    <div class="bg-success text-center">
+    <div class="bg-primary text-center">
 
         <h1 class="jumbortion">Add Student</h1>
 
@@ -11,7 +11,7 @@
 
     <!-- start form-->
 
-    <<form action="addstudent.jsp" method="post">
+    <form action="addstudent.jsp" method="post">
 
         <div class="row">
             <div class="col-md-6">
@@ -79,7 +79,7 @@
             </div>
 
             <div class="col-md-6">
-                <button type="reset" class="btn btn-danger text-center" >Reset</button>
+                <button type="reset" class="btn btn-warning text-center" >Reset</button>
 
             </div>
         </div>

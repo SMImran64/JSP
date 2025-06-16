@@ -16,9 +16,10 @@ request.setAttribute("list",list);
 
 <div class="container">
 
-    <h1 class="text-primary text-center">All Student</h1>
-
-    <table class="table table-striped">
+    <div class="bg-primary">
+    <h1 class="text-warning text-center">All Student</h1>
+    </div>
+    <table class="table table-striped   ">
 
         <thead>
 

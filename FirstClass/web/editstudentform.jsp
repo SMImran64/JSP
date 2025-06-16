@@ -17,7 +17,7 @@ Student s = StudentDao.getById(Integer.parseInt(id));
 
     <div class="bg-success text-center">
 
-        <h1 class="jumbortion">Update Student/<h1>
+        <h1 class="jumbortion">Update Student</h1>
 
     </div>
 
