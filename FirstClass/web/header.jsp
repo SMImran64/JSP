@@ -22,7 +22,7 @@
                             <a class="nav-link active" href="addstudentform.jsp">Student Form</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="editstudentform.jsp">Update Student</a>
+                            <a class="nav-link active" href="#">Update Student</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
