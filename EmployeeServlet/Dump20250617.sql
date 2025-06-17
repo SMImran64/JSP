@@ -38,7 +38,7 @@ CREATE TABLE `emp` (
 
 LOCK TABLES `emp` WRITE;
 /*!40000 ALTER TABLE `emp` DISABLE KEYS */;
-INSERT INTO `emp` VALUES (1,'Abdullah Al Masud','masud1234@gmail.com','Programmer',30000.00);
+INSERT INTO `emp` VALUES (1,'Abdullah Al Masud','abdullahalmasud011@gmail.com','Programmer',50000.00);
 /*!40000 ALTER TABLE `emp` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -106,4 +106,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-06-17 13:52:19
+-- Dump completed on 2025-06-17 19:05:12

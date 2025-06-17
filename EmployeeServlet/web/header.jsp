@@ -10,13 +10,16 @@
 
         <nav class="navbar navbar-dark bg-dark">
             <div class="container-fluid">
-
+                <div class="col-md-3 text-center">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="addemp.jsp"><h4 class="text-success">Add Emp</h4></a>
                 </li>
+                </div>
+                <div class="col-md-3 text-center">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="index.jsp"><h4 class="text-warning"> All Emp</h4></a>
                 </li>
+                </div>
                 <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Search</button>

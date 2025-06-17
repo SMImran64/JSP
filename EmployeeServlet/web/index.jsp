@@ -3,7 +3,7 @@
 <%@page import="dao.EmpDao"%>
 <%@page import="java.util.*"%>
 
- 
+
 <%@include file="header.jsp" %>
 
 
@@ -18,6 +18,10 @@
 
 
     <h1 class="text-primary text-center"> Employee Details</h1> 
+
+    <div class="animate-bounce bd-w-10 bd-h-10 d-inline-flex justify-content-center align-items-center rounded-circle shadow text-bg-primary">
+        <i class="fas fa-arrow-down fa-lg"></i>
+    </div>
 
     <table class="table table-striped">
 
@@ -40,9 +44,10 @@
                     <td>${e.getEmail()}</td>
                     <td>${e.getDesignation()}</td>
                     <td>${e.getSalary()}</td>
+
                     <td>
                         <a href="empServlet?action=edit&id=${e.id}" class="btn btn-primary">Edit</a>
-                        
+
                         <a href="empServlet?action=delete&id=${e.id}" class="btn btn-danger"
                            onclick="return confirm('Are you sure');">Delete</a>
                     </td>
