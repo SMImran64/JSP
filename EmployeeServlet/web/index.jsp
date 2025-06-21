@@ -18,6 +18,10 @@
 
 
     <h1 class="text-primary text-center"> Employee Details</h1> 
+    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+        <button class="btn btn-primary me-md-2" type="button">Button</button>
+        
+    </div>
 
     <div class="animate-bounce bd-w-10 bd-h-10 d-inline-flex justify-content-center align-items-center rounded-circle shadow text-bg-primary">
         <i class="fas fa-arrow-down fa-lg"></i>
